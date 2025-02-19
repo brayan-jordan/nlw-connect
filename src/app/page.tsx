@@ -1,26 +1,26 @@
-import { Button } from "@/components/button";
-import { IconButton } from "@/components/icon-button";
-import { InputField, InputIcon, InputRoot } from "@/components/input";
-import { ArrowRight, Mail } from "lucide-react";
+import { Button } from '@/components/button'
+import { IconButton } from '@/components/icon-button'
+import { InputField, InputIcon, InputRoot } from '@/components/input'
+import { ArrowRight, Mail } from 'lucide-react'
 
 export default function Home() {
-	return (
-		<main>
-			<Button>
-				Enviar
-				<ArrowRight />
-			</Button>
+  return (
+    <main>
+      <Button>
+        Enviar
+        <ArrowRight />
+      </Button>
 
-			<IconButton>
-				<ArrowRight />
-			</IconButton>
+      <IconButton>
+        <ArrowRight />
+      </IconButton>
 
-			<InputRoot>
-				<InputIcon>
-					<Mail className="size-5" />
-				</InputIcon>
-				<InputField />
-			</InputRoot>
-		</main>
-	);
+      <InputRoot>
+        <InputIcon>
+          <Mail className="size-5" />
+        </InputIcon>
+        <InputField />
+      </InputRoot>
+    </main>
+  )
 }
