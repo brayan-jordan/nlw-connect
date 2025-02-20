@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nlw Connect
 
-## Getting Started
+Este projeto foi desenvolvido durante o evento NLW da Rocketseat e consiste em uma aplicação front-end moderna, construída com Next.js 15 e estilizada com Tailwind CSS 4.
 
-First, run the development server:
+### Imagens
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Imagem da tela inicial da aplicação:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Home da aplicação](https://raw.githubusercontent.com/brayan-jordan/nlw-connect/refs/heads/master/docs/home.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Imagem da tela em que o usuário é redirecionado após realizar o cadastro:
 
-## Learn More
+![Tela após realizar o cadastro](https://raw.githubusercontent.com/brayan-jordan/nlw-connect/master/docs/invite.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Conceitos / ferramentas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next](https://nextjs.org/): Framework para React que otimiza desempenho e experiência com renderização server-side. 
+- [Tailwind CSS](https://tailwindcss.com/): Biblioteca utilizada para estilização dos componentes utilizando classes pré-definidas.
+- [React Hook Form](https://www.react-hook-form.com/): Biblioteca leve e eficiente para gerenciamento de formulários em React.
+- [Orval](https://orval.dev/): Biblioteca que gera funções TypeScript a partir do Swagger (OpenAPI), simplificando a integração entre Front-end e Back-end.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Iniciar aplicação localmente
 
-## Deploy on Vercel
+1. Instalar as dependências do projeto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Iniciar a aplicação na porta 3000:
+
+   ```bash
+   npm run dev
+   ```
+
+<small><em>O projeto realiza chamadas HTTP para o back-end, que deve estar rodando localmente. O código-fonte do back-end está disponível no GitHub da Rocketseat e pode ser acessado em: http://rocketseat-education/nlw-connect-node.</em></small>
+
